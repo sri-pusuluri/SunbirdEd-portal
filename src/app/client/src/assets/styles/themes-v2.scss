@@ -135,6 +135,31 @@ img.sbt-page-header-img {
 
 
 html[layout='joy'] {
+
+  //back page controller
+  .sbt-page-back-actions-container {
+    display: flex;
+    align-items: center;
+    width: 92%;
+    margin: 0 4%;
+    background: #ffd954;
+    border-radius: 40px 40px 0 0;
+    overflow: hidden;
+    padding: 16px 16px;
+    .sb-btn-round{
+      span{
+        display:none;
+      }
+    }
+    .cc-player__btn-back {
+      background: none !important;
+    width: auto;
+    }
+    .content-header__content{
+      padding: 0 !important;
+    }
+  }
+  
   .sbt-contentarea-container{
     border-radius: 0 0px 2.5rem 2.5rem;
     @include respond-below(sm){
@@ -144,7 +169,7 @@ html[layout='joy'] {
     .sbt-contentarea {
       background: var(--sbt-body-bg2);
       border-radius: 2.5rem 0px 2.5rem 2.5rem;
-      padding: 1.5rem 1.5rem;
+      padding: 2rem 4%;
       @include respond-below(sm){
         border-radius: 1.5rem 0px 1.5rem 1.5rem;
       }
@@ -159,9 +184,9 @@ html[layout='joy'] {
     box-shadow: var(--sbt-box-shadow-6px);
     min-width: auto;
     padding: calculateRem(16px);
-    height: auto;
-    width: auto;
-    transition: all .3s ease-in-out;
+    height: 3rem;
+    width: 3rem;
+    // transition: all .3s ease-in-out;
     &:hover{
       background: var(--primary-400);
       border-radius: 50%;
