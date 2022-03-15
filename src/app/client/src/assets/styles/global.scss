@@ -1463,17 +1463,6 @@ html[layout="joy"] .sb-modal-content .ui.center.aligned.segment {
 .required-asterisk {
   color: #A80011;
 }
-// .mat-dialog-container{
-//   box-shadow: none;
-//   background: transparent;
-//   overflow:hidden !important;
-// }
-
-// @include respond-below(md) {
-//   .cdk-overlay-pane {
-//     min-width: auto !important;
-//   }
-// }
 
 .dot-divider {
   width: 0.25rem;
@@ -1490,4 +1479,15 @@ html[layout="joy"] .sb-modal-content .ui.center.aligned.segment {
   .contentViewerIframeShadow{
     transform: translate(50%,-50%) !important;
   }
+}
+
+
+.sbaccordion__panel-header__title .sb-checkbox, .sbselectpopover .sb-checkbox {
+  padding: 0 0;
+  margin-top: 0;
+}
+
+html[layout=joy] sb-form .multi-select-container .list-border {
+  padding: 0px !important;
+  border: inherit !important;
 }
