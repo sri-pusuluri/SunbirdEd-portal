@@ -690,4 +690,6 @@ export class SubmitTeacherDetailsComponent implements OnInit, OnDestroy {
       this.modal.deny();
     }
   }
+
+
 }

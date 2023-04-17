@@ -210,4 +210,5 @@ export class ChooseUserComponent implements OnInit, OnDestroy {
       this.utilService.redirect('/resources');
     }, 5100);
   }
+
 }
